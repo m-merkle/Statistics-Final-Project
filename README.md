@@ -1,1 +1,13 @@
-# Statistics-Final-Project
+# Statistics Final Project: California Department of Development Service (DDS) Funding Analysis
+# Key Points
+- Analyzed California DDS funding data using RStudio to assess discrimination claims.
+- Created boxplots and bar charts to compare expenditures by ethnicity and gender.
+- Subset data by age groups and gender, identifying trends using ggplot2 and statistical tools.
+# Project Overview
+This paper analyzes data from the California Department of Development Services (DDS) to evaluate claims of discrimination in funding based on race and gender. The primary goal is to determine whether the DDS provided more funding to White Non-Hispanics compared to Hispanics and whether gender-based discrimination occurred. Using statistical methods such as data sampling, subsetting, and visualizations (boxplots and bar charts), the analysis compares expenditures across ethnicities and genders. The findings will provide insights into the legitimacy of the lawsuit and whether there is evidence of discriminatory practices in the allocation of funds by the DDS.
+# Statistical Analysis Approach
+This project uses RStudio to analyze California DDS funding data and assess discrimination claims. Boxplots and bar charts were created to compare expenditures by ethnicity and gender. The analysis began with a boxplot of expenditures by ethnicity, followed by subsetting data by age groups to examine funding distributions. The summary tool compared median expenditures between Hispanics and White Non-Hispanics. For gender analysis, bar charts compared expenditures by age group and ethnicity for females and males using the ggplot2 library. Code for all visualizations is included in the appendices.
+# Results
+Initial analysis of the boxplot for expenditures by ethnicity (Figure 1) suggested that Hispanics received less funding than White Non-Hispanics. However, the presence of outliers skewed the data, making the median a more reliable measure. The White Non-Hispanic group had a higher interquartile range (IQR) of 39,157 compared to 7,961 for Hispanics, indicating greater variability in funding. Despite this, after subsetting the data by age groups, the medians and boxplots (Figures 2-7) revealed similar funding patterns. In some age groups (0-5, 6-12, and 50+), Hispanics even had higher median expenditures than White Non-Hispanics. Based on this analysis, there is no evidence that the California DDS discriminates against Hispanics in funding allocation.
+
+Additionally, gender-based analysis showed no significant discrimination. Bar charts comparing female and male expenditures by age group (Figures 8-9) and ethnicity (Figures 10-11) were nearly identical, and the mean difference between genders was only $129. This suggests that the California DDS does not discriminate based on gender.
